@@ -15,7 +15,7 @@ In order to set up locally is recommended to have docker and docker compose. Thi
 With these requirements out of the way you need to execute:
 
 - Clone repository
-- ```cd localpath/gulltime-force-api```
+- ```cd localpath/fulltime-force-api```
 - ```cp .env.example .env```
 - Set the following variables in the .nv file
 ```
