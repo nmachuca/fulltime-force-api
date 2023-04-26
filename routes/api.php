@@ -14,6 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::get('repos', [\App\Http\Controllers\Api\MainController::class, 'getRepositories']);
+Route::get('/commits/{repository_id}', [\App\Http\Controllers\Api\MainController::class, 'getCommitList']);
