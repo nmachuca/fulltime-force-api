@@ -1,4 +1,4 @@
-## About BuildingU-backend
+## About Fulltime-Force-API
 
 This is an API  application developed with the purpose of connect with the github API and retrieve a list of commits of a given repository.
 
