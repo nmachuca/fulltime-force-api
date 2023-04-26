@@ -33,5 +33,7 @@ docker run --rm -u "$(id -u):$(id -g)" -v "$(pwd):/var/www/html" -w /var/www/htm
 ```
 - ```alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'```
 - ```sail artisan key:generate```
+- ```sail aritsan migrate```
+- ```sail artisan db:seed```
 - ```sail up -d```
 
